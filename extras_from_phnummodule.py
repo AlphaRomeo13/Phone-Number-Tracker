@@ -1,3 +1,7 @@
+import xdrlib
+
+import xml
+import xxlimited
 import phonenumbers
 
 z = phonenumbers.parse("+120012301", None)
@@ -29,11 +33,11 @@ phonenumbers.phonenumberutil.NumberParseException: #(1) The string supplied did 
 
 
 # formatting numbers
-phonenumbers.format_number(x, phonenumbers.PhoneNumberFormat.NATIONAL)
+phonenumbers.format_number(xdrlib, phonenumbers.PhoneNumberFormat.NATIONAL)
 # '020 8366 1177'
-phonenumbers.format_number(x, phonenumbers.PhoneNumberFormat.INTERNATIONAL)
+phonenumbers.format_number(xml, phonenumbers.PhoneNumberFormat.INTERNATIONAL)
 # '+44 20 8366 1177'
-phonenumbers.format_number(x, phonenumbers.PhoneNumberFormat.E164)
+phonenumbers.format_number(xxlimited, phonenumbers.PhoneNumberFormat.E164)
 # '+442083661177'
 
 
