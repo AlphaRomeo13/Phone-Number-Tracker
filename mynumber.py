@@ -1,3 +1,3 @@
 
 # the number you wish to track
-number = "+2349050813720"
+number = "+6281344116977"
